@@ -1,5 +1,5 @@
 ## Run
-It's React so `npm run build`
+It's React so `npm start` and `npm run build` 
 
 ## Design Decisions
 - Put the map pins in a hashmap for constant lookup when clicking / looking at one.
