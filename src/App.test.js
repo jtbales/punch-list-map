@@ -14,26 +14,24 @@ import BBAppBar from "./BBAppBar"
 const exampleData = [
     {
         "discipline": "plumbing",
+        "state": "in-progress"
+    },
+    {
+        "discipline": "fire-protection",
         "state": "completed"
+    },
+    {
+        "discipline": "fire-protection",
+        "state": "in-progress"
     },
     {
         "discipline": "plumbing",
-        "state": "in-progress"
-    },
-    {
-        "discipline": "fire-protection",
         "state": "completed"
     },
-    {
-        "discipline": "fire-protection",
-        "state": "in-progress"
-    }
 ]
 it('ExampleData.PunchList.Work.getAll', () => {
-    // console.log(ExampleData.PunchList.Work.getAll({ discipline: "plumbing", state: "completed" }, exampleData))
-
     expect(ExampleData.PunchList.Work.getAll({}, exampleData).length).toBe(exampleData.length);
-    expect(ExampleData.PunchList.Work.getAll({ discipline: "plumbing", state: "completed" }, exampleData)[0]).toBe(exampleData[0]);
+    expect(ExampleData.PunchList.Work.getAll({ discipline: "plumbing", state: "completed" }, exampleData)[0]).toBe(exampleData[3]);
 });
 
 
