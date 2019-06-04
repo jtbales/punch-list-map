@@ -1,25 +1,25 @@
 {
-  "name": "punch-list-map",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@material-ui/core": "^4.0.1",
-    "@material-ui/icons": "^4.0.1",
-    "mapbox-gl": "^1.0.0",
-    "prop-types": "^15.7.2",
-    "query-string": "^6.5.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-mapbox-gl": "^4.4.0",
-    "react-router": "^5.0.0",
-    "react-router-dom": "^5.0.0",
-    "react-scripts": "0.9.5"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "name": "punch-list-map",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@material-ui/core": "^4.0.1",
+        "@material-ui/icons": "^4.0.1",
+        "mapbox-gl": "^1.0.0",
+        "prop-types": "^15.7.2",
+        "query-string": "5.1.1",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "react-mapbox-gl": "^4.4.0",
+        "react-router": "^5.0.0",
+        "react-router-dom": "^5.0.0",
+        "react-scripts": "0.9.5"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    }
 }

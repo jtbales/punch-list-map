@@ -58,7 +58,7 @@ class PunchList extends Component {
 
     componentDidMount() {
         const values = queryString.parse(this.props.location.search)
-        const { match, location, history } = this.props;
+        const { match } = this.props;
 
         // console.log({ match, location, history })
         // console.log(values.state)
